@@ -1,0 +1,276 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("starfall-night-sky-mountains-aesthetic-gif-preview-desktop-wallpaper.gif");
+  background-size: 1401px 731px;
+  background-repeat: repeat;
+  background-position: center 100px;
+  
+  overflow-x: hidden; /* Impede o scroll horizontal */
+}
+header {
+  background-color: #0a0225;
+  color: rgb(2, 154, 255);
+  padding: 20px;
+  text-align: center;
+}
+.menu a {
+  list-style: none;
+  padding: 0;
+  color: rgb(0, 140, 255);
+  margin: 0 15px;
+  text-decoration: none;
+   transform: translateY(-6px) scale(1.03);
+        box-shadow: 0 0 32px #6200ffcc;
+}
+.menu li {
+  display: inline;
+  margin : 0 10px;
+}
+.contato{
+  font-family: "andale mono";
+  margin: 12px auto;
+  text-align: center;
+  color: rgba(77, 57, 124, 0);
+  padding: 22px;
+  display: block;
+  width: 100%;
+  font-size: 22px;
+  background-color: rgba(83, 20, 255, 0); /* Fundo branco semi-transparente */
+  
+  z-index: 1; /* Certificar se o background esteja atrás*/
+}
+
+.video-fundo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+  padding: 0;
+  top: 0;
+  left: 0px;
+  width: 100vw;
+
+}
+input[type="text"],
+input[type="email"] {
+  font-family: 'andale mono', cursive, sans-serif;
+  padding: 10px;
+  border: 1px solid #6200ff;
+  border-radius: 4px;
+  
+  width: 400px;
+  margin: 10px 0;
+  background-color: rgba(0, 0, 0, 0.144);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 12px blue, 0 0 24px red;
+  transition: box-shadow 0.3s, border-color 0.3s;
+
+}
+input[type="email"]:focus {
+  border-color: #030008;
+  box-shadow: 0 0 24px rgb(2, 19, 255), 0 0 49px red;
+}
+.contato h2{
+  font-family: 'constantia', cursive, sans-serif;
+  font-size: 28px; /* ajuste o tamanho se quiser */
+  color: #ffffff;     /* ajuste a cor se quiser */
+}
+input[type="submit"] {
+  background-color: #6200ff00;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 12px rgb(0, 0, 255), 0 0 24px red;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+
+/* Card centralizado e estilizado para a página Sobre mim */
+.Sobremim-card {
+  background-image: url("");
+  border-radius: 18px;
+  box-shadow: 0 0 32px #6200ff88;
+  max-width: 480px;
+  margin: 60px auto 0 auto;
+  padding: 40px 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.Sobremim-card h1 {
+  font-size: 2.4em;
+  color: #00aeff;
+  margin-bottom: 24px;
+  font-family: 'Constantia', cursive, sans-serif;
+}
+
+.Sobremim-card .descricao {
+  font-size: 1.3em;
+  margin-bottom: 18px;
+}
+
+.Sobremim-card .informacoes h2 {
+  font-size: 1.5em;
+  color: #ffb300;
+  margin-bottom: 16px;
+}
+
+.Sobremim-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Sobremim-card li {
+  background: rgba(0,0,0,0.18);
+  margin-bottom: 14px;
+  padding: 14px 10px;
+  border-radius: 8px;
+  font-size: 1.15em;
+  text-align: left;
+}
+
+.Sobremim-card strong {
+  color: #00c3ff;
+}
+
+.portfolio {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 248, 248, 0);
+  border-radius: 10px;
+}
+.projetos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 30px;
+}
+.projeto-card {
+  background: rgba(20,20,40,0.7);
+  border-radius: 12px;
+  box-shadow: 0 0 16px #6200ff55;
+  padding: 24px 32px;
+  min-width: 260px;
+  max-width: 340px;
+  color: #fff;
+  text-align: left;
+  transition: transform 0.2s;
+  flex: 1 1 280px;
+  margin: 12px;
+}
+.projeto-card:hover {
+        transform: translateY(-6px) scale(1.03);
+        box-shadow: 0 0 32px #6200ffcc;
+      }
+.projeto-card h3 {
+        margin-top: 0;
+        color: #00c3ff7e;
+
+      }
+.projeto-card p {
+        margin: 12px 0 0;
+        color: #ccc;
+      }
+    
+ .projeto-card a {
+        color: #ffb300;
+        text-decoration: underline;
+      }
+
+
+      .portfolio h2 {
+  font-family: 'constantia', cursive, sans-serif;
+  font-size: 28px; /* ajuste o tamanho se quiser */
+  color: #00aeff; /* ajuste a cor se quiser */
+      }
+.Sobremim {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background-color: rgba(20, 20, 40, 0.8); /* Fundo escuro semi-transparente */
+  border-radius: 16px;
+  max-width: 500px;
+  color: #fff;
+  box-shadow: 0 0 24px #6200ff55;
+}
+
+.Sobremim h2 {
+  font-family: 'Constantia', cursive, sans-serif;
+  font-size: 30px;
+  color: #00aeff;
+  margin-bottom: 24px;
+}
+
+.Sobremim ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.Sobremim li {
+  background: rgba(0,0,0,0.2);
+  margin-bottom: 11px;
+  padding: 14px 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #6200ff33;
+  text-align: left;
+font-size: 18px;
+}
+button.btn-voltar {
+  background-color: #0099ff56;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.button.formacao {
+  background-color: #ff0000c5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .video-fundo {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+
+  .contato input[type="text"],
+  .contato input[type="email"],
+  .contato input[type="submit"] {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .contato h2 {
+    font-size: 22px;
+  }
+
+  .btn-voltar {
+    width: 90%;
+    font-size: 16px;
+  }
+}
