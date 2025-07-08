@@ -28,8 +28,8 @@ header {
 .menu li {
   display: inline;
   margin : 0 10px;
-}
-.contato{
+  
+.contato {
   font-family: "andale mono";
   margin: 12px auto;
   text-align: center;
@@ -38,9 +38,8 @@ header {
   display: block;
   width: 100%;
   font-size: 22px;
-  background-color: rgba(255, 255, 255, 0.1; /* Fundo branco semi-transparente */
-  
-  z-index: 1; /* Certificar se o background esteja atrás*/
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo branco semi-transparente */
+  z-index: 1; /* Certificar se o background esteja atrás */
 }
 
 
