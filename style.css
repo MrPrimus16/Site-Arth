@@ -38,23 +38,12 @@ header {
   display: block;
   width: 100%;
   font-size: 22px;
-  background-color: rgba(255, 255, 255, 0.1; /* Fundo branco semi-transparente */
+  background-color: rgba(0, 0, 0, 0.1; /* Fundo branco semi-transparente */
   
   z-index: 1; /* Certificar se o background esteja atrás*/
 }
 
-.video-fundo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100vw;
-  min-height: 100vh;
-  z-index: -1;
-  object-fit: cover;
-  padding: 0;
-  top: 0;
-  left: 0px;
-  width: 100vw;
+
 
 }
 input[type="text"],
