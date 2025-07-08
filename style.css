@@ -8,7 +8,7 @@ body {
   background-repeat: repeat;
   background-position: center 100px;
   
-  overflow-x: hidden; /* Impedir o scroll horizontal */
+  overflow-x: hidden; /* Impede o scroll horizontal */
 }
 header {
   background-color: #0a0225;
@@ -33,17 +33,28 @@ header {
   font-family: "andale mono";
   margin: 12px auto;
   text-align: center;
-  color: rgba(77, 57, 124, 1);
+  color: rgba(77, 57, 124, 0);
   padding: 22px;
   display: block;
   width: 100%;
   font-size: 22px;
-  background-color: rgba(0, 0, 0, 0.4; /* Fundo branco semi-transparente */
+  background-color: rgba(83, 20, 255, 0); /* Fundo branco semi-transparente */
   
   z-index: 1; /* Certificar se o background esteja atrás*/
 }
 
-
+.video-fundo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+  padding: 0;
+  top: 0;
+  left: 0px;
+  width: 100vw;
 
 }
 input[type="text"],
@@ -67,8 +78,8 @@ input[type="email"]:focus {
 }
 .contato h2{
   font-family: 'constantia', cursive, sans-serif;
-  font-size: 28px; 
-  color: #ffffff;     
+  font-size: 28px; /* ajuste o tamanho se quiser */
+  color: #ffffff;     /* ajuste a cor se quiser */
 }
 input[type="submit"] {
   background-color: #6200ff00;
@@ -182,8 +193,8 @@ input[type="submit"] {
 
       .portfolio h2 {
   font-family: 'constantia', cursive, sans-serif;
-  font-size: 28px; /*Ajustar tamanho*/
-  color: #00aeff; /* ajustar cor do portofólio */
+  font-size: 28px; /* ajuste o tamanho se quiser */
+  color: #00aeff; /* ajuste a cor se quiser */
       }
 .Sobremim {
   font-family: Arial, sans-serif;
@@ -240,7 +251,7 @@ button.btn-voltar {
   font-size: 16px;
   margin-top: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) {}
   .video-fundo {
     min-width: 100%;
     min-height: 100%;
@@ -262,4 +273,3 @@ button.btn-voltar {
     width: 90%;
     font-size: 16px;
   }
-}
